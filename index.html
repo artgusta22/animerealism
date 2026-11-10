@@ -1,4 +1,4 @@
-html
+```html
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -8,45 +8,32 @@ html
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-			.price-tag {
+			.price-box {
 				background: rgba(255, 255, 255, 0.05);
 				border: 2px solid #31a89c;
 				border-radius: 10px;
 				padding: 25px;
-				margin: 30px 0;
+				margin: 20px 0;
 			}
-			.price-highlight {
+			.price-amount {
 				font-size: 2.5em;
 				font-weight: bold;
-				color: #fff;
-			}
-			.module-card {
-				background: rgba(255, 255, 255, 0.03);
-				border-radius: 8px;
-				padding: 20px;
-				margin-bottom: 20px;
-				border-left: 4px solid #31a89c;
-			}
-			.testimonial-card {
-				background: rgba(255, 255, 255, 0.05);
-				padding: 20px;
-				border-radius: 8px;
-				margin-bottom: 20px;
+				color: #ffffff;
 			}
 		</style>
 	</head>
 	<body class="is-preload">
 
-		<!-- Sidebar / Navegação Lateral -->
+		<!-- Sidebar / Menu Lateral do Hyperspace -->
 			<section id="sidebar">
 				<div class="inner">
 					<nav>
 						<ul>
 							<li><a href="#intro">Início</a></li>
-							<li><a href="#modulos">Módulos</a></li>
-							<li><a href="#oferta">Valor & Inscrição</a></li>
-							<li><a href="#depoimentos">Depoimentos</a></li>
-							<li><a href="#contato">Contato</a></li>
+							<li><a href="#one">Destaques</a></li>
+							<li><a href="#two">Módulos</a></li>
+							<li><a href="#three">Garantia & Depoimentos</a></li>
+							<li><a href="#contato">Contato & Vagas</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -55,166 +42,175 @@ html
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Intro Header -->
+				<!-- Intro Header (Capa Hyperspace) -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Anime Realism</h1>
-							<p><strong>Aprenda a desenhar seus personagens favoritos com apenas materiais escolares!</strong><br />
+							<p>Aprenda a desenhar seus personagens favoritos com apenas materiais escolares!<br />
 							Treinamento completo: do esboço básico ao realismo avançado em anatomia, mangá, cartoon e semi-realismo.</p>
 							<ul class="actions">
 								<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large">QUERO SER ALUNO</a></li>
-								<li><a href="https://wa.me/5541984246301" target="_blank" class="button">FALAR NO WHATSAPP</a></li>
+								<li><a href="https://wa.me/5541984246301" target="_blank" class="button scrolly">Falar no WhatsApp</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- Seção Módulos -->
-					<section id="modulos" class="wrapper style2 fade-up">
-						<div class="inner">
-							<h2>Nossos Módulos de Aprendizado</h2>
-							<p>Desenvolva suas habilidades passo a passo, mesmo que esteja começando do zero:</p>
-							
-							<div class="row">
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 1: Boas-Vindas & Materiais</h3>
-										<p>Entenda o funcionamento do curso e saiba como extrair os melhores resultados usando apenas materiais escolares.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 2: Anatomia & Esboço</h3>
-										<p>Pratique membros do corpo humano, diferentes tipos de esboço e variados estilos de estrutura anatômica.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 3: Contorno & Pintura Básica</h3>
-										<p>Aprimore sua precisão na line art, técnicas de hachuras, degradê, pintura básica e o círculo cromático.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 4: Estilo Cartoon</h3>
-										<p>Aprenda a desenhar no estilo Cartoon, criando diversos personagens com métodos práticos e divertidos.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 5: Estilo Anime</h3>
-										<p>Domine os traços marcantes do estilo Anime com diferentes abordagens para expandir suas técnicas.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 6: Fundamentos de Mangá</h3>
-										<p>Aprofunde-se na criação de personagens próprios e entenda os melhores conceitos do estilo mangá.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 7: Semi-Realismo</h3>
-										<p>Aprenda técnicas de textura de pele, degradê suave e a aplicação do estilo semi-realista nos desenhos.</p>
-									</div>
-								</div>
-								<div class="col-6 col-12-medium">
-									<div class="module-card">
-										<h3>Módulo 8: Realismo Avançado</h3>
-										<p>O nível mais completo: texturas complexas de pele, metal, tecidos e efeitos realistas profundos.</p>
-									</div>
+				<!-- Seção 1 (Spotlights do Hyperspace - Destaques) -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="Evolução Alunos" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Resultados Reais</h2>
+									<p>Veja como nossos alunos evoluíram com técnicas práticas e acompanhamento dedicado. Aprenda tudo sobre os fundamentos da arte e vários estilos diferentes com módulos de anatomia, esboço, line art (contorno), pintura, anime, cartoon, mangá e semi-realismo.</p>
+									<ul class="actions">
+										<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button">Garantir Minha Vaga</a></li>
+									</ul>
 								</div>
 							</div>
-							
-							<ul class="actions style1 align-center">
-								<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large">GARANTIR MINHA VAGA AGORA</a></li>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="Materiais Escolares" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Materiais Escolares Simples</h2>
+									<p>Você não precisa gastar rios de dinheiro com materiais profissionais importados. O método do curso foi desenvolvido para você atingir resultados impressionantes e realistas usando materiais acessíveis do seu dia a dia.</p>
+									<ul class="actions">
+										<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button">Quero Aprender</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="Crie Seus Personagens" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Crie Seus Próprios Personagens</h2>
+									<p>Além de copiar com perfeição seus personagens favoritos, você aprenderá a criar seus próprios desenhos do zero, aplicando regras de proporção, iluminação, sombras profundas e texturas avançadas.</p>
+									<ul class="actions">
+										<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button">Começar Agora</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Seção 2 (Features do Hyperspace - Módulos) -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Conteúdo dos Módulos</h2>
+							<p>Cada módulo é pensado para desenvolver suas habilidades passo a passo, do básico ao avançado:</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-play-circle"></span>
+									<h3>Módulo 1: Boas-Vindas & Materiais</h3>
+									<p>Entenda como vai funcionar o curso e aprenda a escolher e utilizar os melhores materiais escolares.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-male"></span>
+									<h3>Módulo 2: Anatomia & Esboço</h3>
+									<p>Pratique membros do corpo humano, tipos de esboço e variados estilos de anatomia.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-pen-nib"></span>
+									<h3>Módulo 3: Contorno & Pintura</h3>
+									<p>Aprimore sua precisão na line art, técnicas de hachuras, pintura básica, degradê e círculo cromático.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-smile"></span>
+									<h3>Módulo 4: Estilo Cartoon</h3>
+									<p>Aprenda a desenhar no estilo Cartoon no seu próprio estilo com métodos práticos e divertidos.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-paint-brush"></span>
+									<h3>Módulo 5: Estilo Anime</h3>
+									<p>Aprenda a desenhar diferentes animes para dominar métodos e traços distintos.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-book-open"></span>
+									<h3>Módulo 6: Fundamentos do Mangá</h3>
+									<p>Indo mais a fundo nos fundamentos da arte no mangá para criar seus personagens e melhores estilos.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-user-astronaut"></span>
+									<h3>Módulo 7: Semi-Realismo</h3>
+									<p>Texturas de pele, pintura degradê e os tipos mais utilizados do estilo semi-realista.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-gem"></span>
+									<h3>Módulo 8: Realismo Avançado</h3>
+									<p>O estilo mais complexo: pele, textura avançada, metal, tecido e efeitos hiper-realistas.</p>
+								</section>
+							</div>
+							<ul class="actions fit">
+								<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large fit">INSCREVER-SE NOS 8 MÓDULOS</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- Seção Oferta & Valor -->
-					<section id="oferta" class="wrapper style3 fade-up" style="text-align: center;">
+				<!-- Seção 3 (Garantia & Depoimentos) -->
+					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Acesso Vitalício ao Treinamento</h2>
-							<p>Aprenda no seu ritmo, com suporte dedicado e acesso permanente.</p>
-							
-							<div class="price-tag" style="max-width: 500px; margin: 0 auto 30px auto;">
-								<p style="margin-bottom: 5px; text-decoration: line-through; opacity: 0.7;">De R$ 197,00 por apenas</p>
-								<div class="price-highlight">R$ 127,00</div>
-								<p style="margin-top: 5px;"><strong>ou em 12x de R$ 13,14</strong></p>
-								<hr />
-								<ul style="list-style: none; padding-left: 0; text-align: left;">
-									<li>✅ <strong>Grupo VIP de Alunos</strong></li>
-									<li>✅ <strong>Suporte VIP com Art Gusta</strong></li>
-									<li>✅ <strong>Acesso Vitalício</strong></li>
-									<li>✅ <strong>Garantia de 7 Dias sem Risco</strong></li>
-								</ul>
-								<a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large fit">QUERO SER ALUNO AGORA</a>
-							</div>
-
-							<div style="max-width: 700px; margin: 0 auto; background: rgba(0,0,0,0.2); padding: 20px; border-radius: 8px;">
-								<h3>💸 Garantia Incondicional de 7 Dias!</h3>
-								<p>Assista às aulas e teste as técnicas. Se em até 7 dias você achar que o treinamento não é para você, devolvemos 100% do seu dinheiro sem burocracia.</p>
-							</div>
-						</div>
-					</section>
-
-				<!-- Seção Depoimentos -->
-					<section id="depoimentos" class="wrapper style2 fade-up">
-						<div class="inner">
-							<h2>O que Nossos Alunos Dizem</h2>
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<div class="testimonial-card">
-										<p>"Antes do curso, eu só rabiscava. Agora consigo desenhar personagens de anime com detalhes incríveis. Vlw Art Gusta por tudo!"</p>
-										<strong>- Lucas M. (São Paulo)</strong>
-									</div>
-								</div>
-								<div class="col-4 col-12-medium">
-									<div class="testimonial-card">
-										<p>"Agradeço muito ao meu prof Art Gusta! Todos os ensinamentos das aulas e do suporte me ajudaram demais. Grande sucesso!"</p>
-										<strong>- Ana P. (Rio de Janeiro)</strong>
-									</div>
-								</div>
-								<div class="col-4 col-12-medium">
-									<div class="testimonial-card">
-										<p>"Consegui melhorar bastante o meu traço, a line art e a pintura. O Art Gusta explica tudo de forma clara e prática!"</p>
-										<strong>- Quevelen Art</strong>
-									</div>
-								</div>
+							<h2>O que os Alunos Dizem</h2>
+							<p>Veja o feedback de quem já está estudando no treinamento:</p>
+							<div class="features">
+								<section>
+									<h3>Lucas M. (São Paulo)</h3>
+									<p>"Antes do curso, eu só rabiscava. Agora, consigo desenhar personagens de anime com detalhes incríveis, me sinto um profissional kkkkkk vlw Art Gusta por tudo que você me ensinou!"</p>
+								</section>
+								<section>
+									<h3>Ana P. (Rio de Janeiro)</h3>
+									<p>"Agradeço muito ao meu prof Art Gusta, todos os ensinamentos que você me passou tanto os do curso quanto os do suporte me ajudaram muito, grande sucesso pra você❤️"</p>
+								</section>
+								<section>
+									<h3>Quevelen Art</h3>
+									<p>"Fazer esse curso foi uma experiência muito boa! Consegui melhorar bastante o meu traço, a line art, a pintura e vários outros aspectos dos meus desenhos. Recomendo demais!"</p>
+								</section>
+								<section>
+									<h3>Garantia Total de 7 Dias 💸</h3>
+									<p>Você faz sua inscrição, entra no curso, assiste às aulas e testa tudo. Se em até 7 dias sentir que não é para você, devolvemos 100% do seu dinheiro sem perguntas!</p>
+								</section>
 							</div>
 						</div>
 					</section>
 
-				<!-- Seção Contato -->
-					<section id="contato" class="wrapper style1 fade-up">
+				<!-- Seção 4 (Oferta & Contato) -->
+					<section id="contato" class="wrapper style2 fade-up">
 						<div class="inner">
-							<h2>Fale Conosco</h2>
-							<p>Tire suas dúvidas diretamente com nossa equipe:</p>
+							<div style="text-align: center;">
+								<h2>Garantia de Vaga com Oferta Especial</h2>
+								<p>Acesso vitalício ao curso + Suporte VIP + Grupo de Alunos</p>
+								
+								<div class="price-box" style="max-width: 500px; margin: 0 auto 30px auto;">
+									<p style="margin-bottom: 5px; text-decoration: line-through; opacity: 0.7;">De R$ 197,00 por apenas</p>
+									<div class="price-amount">R$ 127,00</div>
+									<p style="margin-top: 5px;"><strong>ou em até 12x de R$ 13,14</strong></p>
+									<a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large fit">COMPRAR AGORA NA KIWIFY</a>
+								</div>
+							</div>
+
 							<div class="split style1">
 								<section>
+									<h3>Suporte Direto com o Professor</h3>
+									<p>Fique à vontade para entrar em contato se tiver dúvidas sobre as aulas ou sobre a inscrição:</p>
 									<ul class="contact">
 										<li>
-											<h3>E-mail de Suporte</h3>
+											<h3>E-mail</h3>
 											<a href="mailto:artgusta22@gmail.com">artgusta22@gmail.com</a>
 										</li>
 										<li>
 											<h3>WhatsApp / Telefone</h3>
-											<a href="https://wa.me/5541984246301" target="_blank">(41) 98424-6301</a>
-										</li>
-										<li>
-											<h3>Redes Sociais</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
-												<li><a href="#" class="icon brands fa-tiktok"><span class="label">TikTok</span></a></li>
-											</ul>
+											<a href="https://wa.me/5541984246301" target="_blank">+55 (41) 98424-6301</a>
 										</li>
 									</ul>
 								</section>
-								<section style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-									<a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large fit">INSCREVER-SE AGORA</a>
-									<br />
-									<a href="https://wa.me/5541984246301" target="_blank" class="button fit">CHAMAR NO WHATSAPP</a>
+								<section style="display:flex; flex-direction:column; justify-content:center;">
+									<ul class="actions fit">
+										<li><a href="https://pay.kiwify.com.br/4M3SLas" target="_blank" class="button primary large fit">IR PARA O CHECKOUT KIWIFY</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="https://wa.me/5541984246301" target="_blank" class="button fit">FALAR NO WHATSAPP</a></li>
+									</ul>
 								</section>
 							</div>
 						</div>
@@ -231,7 +227,7 @@ html
 				</div>
 			</footer>
 
-		<!-- Scripts -->
+		<!-- Scripts do Hyperspace -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -242,3 +238,4 @@ html
 
 	</body>
 </html>
+```
